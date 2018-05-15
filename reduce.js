@@ -1,8 +1,6 @@
 const http = require('http');
 const async = require('async');
 const url = process.argv[2];
-// number=array[i]
-// result += res.number
 
 async.reduce(['one', 'two', 'three'], 0, function (memo, item, done) {
   var body = '';
